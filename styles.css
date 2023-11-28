@@ -1,0 +1,32 @@
+/* styles.css */
+body {
+    width: 300px;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4; /* Set a background color */
+    color: #333; /* Set the text color */
+  }
+  
+  h2 {
+    color: #007bff;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  #summaryResult {
+    margin-top: 20px;
+  }
+  
+  .summary-container {
+    background-color: #fff; /* Set a background color for the summary container */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .error-message {
+    color: #dc3545;
+  }
+  

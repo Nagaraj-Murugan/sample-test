@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "PostAi",
+  "version": "1.0",
+  "description": "Get summary and images from API",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "images/computer.gif",
+      "48": "images/computer.gif",
+      "128": "images/computer.gif"
+    },
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "images/computer.gif",
+    "48": "images/computer.gif",
+    "128": "images/computer.gif"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
